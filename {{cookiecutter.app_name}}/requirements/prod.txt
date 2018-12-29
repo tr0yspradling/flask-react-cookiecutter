@@ -1,0 +1,42 @@
+# everything needed in production
+
+# uwsgi server
+uwsgi
+
+# flask
+flask
+markupsafe
+werkzeug
+jinja2
+itsdangerous
+click
+
+# database
+flask-sqlalchemy
+psycopg2
+sqlalchemy
+
+# migrations
+flask-migrate
+
+# forms
+flask-wtf
+wtforms
+
+# deployment
+gunicorn
+
+# assets
+flask-assets
+cssmin
+jsmin
+
+# auth
+flask-login
+flask-bcrypt
+
+# caching
+flask-caching
+
+# debug toolbar
+flask-debugtoolbar
